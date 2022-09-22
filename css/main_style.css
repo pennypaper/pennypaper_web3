@@ -292,7 +292,7 @@ body {
 /*-------------------------------------------------------*/
 #aboutus_wrap {
 	width:1320px;
-	margin:70px auto;
+	margin:70px auto 100px;
 	overflow: hidden;
 }
 /*-------------------------------------------------------*/
@@ -573,7 +573,7 @@ video {
 #best_wrap {
     width: 1320px;
     margin: 0 auto;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 }
 #community {
     width: 100%;
@@ -968,7 +968,7 @@ video {
 #order_wrap {
 	width: 1320px;
     margin: 0px auto;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 }
 #order_wrap h1{
 	font-size:30px;
@@ -1057,7 +1057,7 @@ video {
 #sns_wrap {
     width: 1320px;
     margin: 0px auto;
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 }
 
 #sns_wrap .slider {
@@ -1248,7 +1248,7 @@ video {
 	#new_wrap{
 		width: 1320px;
 		margin: 0 auto;
-		margin-bottom: 70px;
+		margin-bottom: 100px;
 	}
 	.best_textbox h1{
 		text-align: center;
