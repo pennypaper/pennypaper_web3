@@ -1480,15 +1480,42 @@ video {
 /*-------------------------------------------------------*/
 /*08_footer - start*/
 /*-------------------------------------------------------*/
-.footer{
+
+
+/* 푸터 */
+#footer {
+	width: 100%;
+} 
+.footer {
 	width: 1320px;
 	margin: 0 auto;
-	margin-bottom: 50px;
 	text-align: center;
-}
+	padding: 0 5% 5%;
+	box-sizing: border-box;
+} 
 .footer h1{
 	display: block;
-	margin: 10px 0;
+	margin-bottom: 10px;
+}
+.footer li {
+	position: relative; 
+	display: inline; 
+	padding: 0 7px 0 10px; 
+	white-space: nowrap;
+}
+.footer li:before {
+	content: ''; 
+	width: 1px; 
+	height: 12px; 
+	background-color: #dbdbdb; 
+	position: absolute; 
+	left: 0; top: 2px;
+}
+.footer li:first-child:before {
+	width: 0;
+}
+.footer address {
+	padding-top: 15px;
 }
 /*-------------------------------------------------------*/
 
